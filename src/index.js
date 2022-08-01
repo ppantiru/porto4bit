@@ -9,7 +9,7 @@ import './stylesheets/index.css';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: process.env.MONGODB_URI || 'http://localhost:5000/graphql',
+  uri: 'https://afternoon-refuge-64592.herokuapp.com/graphql',
   cache: new InMemoryCache(),
 });
 
