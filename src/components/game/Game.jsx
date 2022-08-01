@@ -13,7 +13,7 @@ function getRandomInt(min, max) {
 
 function Game() {
 
-  const { t } = useTranslation();
+  const { t } = useTranslation(['translationGeneral'])
   const groundLevel = 30
   const playerWidth = 60
   const playerHeight = 50
